@@ -1,0 +1,23 @@
+***************************************
+*** ###easy### TPC-C Load Generator ***
+***************************************
+option h with value 'localhost'
+option d with value 'tpcc'
+option u with value 'root'
+option p with value ''
+option w with value '-c'
+option r with value '10'
+option l with value '100'
+non-option ARGV-elements: 16 
+<Parameters>
+     [server]: localhost
+     [port]: 3306
+     [DBname]: tpcc
+       [user]: root
+       [pass]: 
+  [warehouse]: 0
+ [connection]: 10
+     [rampup]: 10 (sec.)
+    [measure]: 100 (sec.)
+
+RAMP-UP TIME.(10 sec.)
